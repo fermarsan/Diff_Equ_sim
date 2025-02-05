@@ -12,6 +12,8 @@ This repository includes 2 usage examples:
 
 - `Diff_Equ_test_2.sim1` Unstable 3rd order system simulation $f_s = 50 Hz$
 
+![](assets/test2.png)
+
 ## Usage 
 You have to copy the component's folder inside a one in the user data folder, for instance `~/User_data/test`and associate it in Simulide.
 You can see how to do this in the official SimulIDE's Tutorials:
