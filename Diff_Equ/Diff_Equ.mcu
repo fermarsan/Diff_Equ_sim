@@ -1,0 +1,23 @@
+<!DOCTYPE SimulIDE>
+
+<iou name="Diff_Equ" core="scripted" script="Diff_Equ.as" >
+
+	<propertygroup name="Output coefficients">
+		<property name="A0" type="double" />
+		<property name="A1" type="double" />
+		<property name="A2" type="double" />
+		<property name="A3" type="double" />
+	</propertygroup>
+
+	<propertygroup name="Input coefficients">
+		<property name="B0" type="double" />
+		<property name="B1" type="double" />
+		<property name="B2" type="double" />
+		<property name="B3" type="double" />
+	</propertygroup>
+    
+    <ioport name="Inputs" pins="u" />
+    <ioport name="Outputs" pins="y" />
+    <ioport name="Clocks" pins="CLK" />
+
+</iou>

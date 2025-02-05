@@ -1,0 +1,23 @@
+<circuit version="1.1.0-SR1" rev="2005" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Clock" CircId="Clock-15" mainComp="false" Show_id="false" Show_Val="false" Pos="36,-396" rotation="0" hflip="1" vflip="1" label="Clock-15" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Running="true" Voltage="5 V" Freq="50 Hz" Always_On="false" />
+
+<item itemtype="Clock" CircId="Clock-16" mainComp="false" Show_id="false" Show_Val="false" Pos="36,-412" rotation="0" hflip="1" vflip="1" label="Clock-16" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Running="true" Voltage="5 V" Freq="0.75 Hz" Always_On="false" />
+
+<item itemtype="Oscope" CircId="Oscope-19" mainComp="false" Show_id="false" Show_Val="false" Pos="272,-396" rotation="0" hflip="1" vflip="1" label="Oscope-19" idLabPos="-90,-100" labelrot="0" valLabPos="-16,20" valLabRot="0" Basic_X="135 _px" Basic_Y="135 _px" BufferSize="600000" connectGnd="true" InputImped="10 MΩ" TimDiv="239029632651" TimPos="0,0,0,0," VolDiv="3.95229,3.95229,3.95229,3.95229," Tunnels=",,,," Trigger="0" Filter="0.1 V" AutoSC="4" Tracks="1" HideCh="false,false,false,false," VolPos="0,0,0,0," />
+
+<item itemtype="MCU" CircId="Diff_Equ-44" mainComp="false" Show_id="true" Show_Val="true" Pos="100,-420" rotation="0" hflip="1" vflip="1" label="Diff_Equ-44" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" A0="1" A1="-0.8187" A2="0" A3="0" B0="0" B1="0.1813" B2="0" B3="0" MainMcu="true" />
+
+<item itemtype="Node" CircId="Node-45" mainComp="false" Pos="52,-412" />
+
+<item itemtype="Connector" uid="Connector-70" startpinid="Diff_Equ-44-Inputsu" endpinid="Node-45-1" pointList="92,-412,52,-412" />
+
+<item itemtype="Connector" uid="Connector-71" startpinid="Clock-16-outnod" endpinid="Node-45-0" pointList="52,-412,52,-412" />
+
+<item itemtype="Connector" uid="Connector-72" startpinid="Node-45-2" endpinid="Oscope-19-Pin0" pointList="52,-412,52,-444,184,-444" />
+
+<item itemtype="Connector" uid="Connector-73" startpinid="Diff_Equ-44-ClocksCLK" endpinid="Clock-15-outnod" pointList="92,-396,52,-396" />
+
+<item itemtype="Connector" uid="Connector-74" startpinid="Diff_Equ-44-Outputsy" endpinid="Oscope-19-Pin1" pointList="156,-412,184,-412" />
+
+</circuit>
