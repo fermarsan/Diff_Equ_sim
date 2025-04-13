@@ -1,6 +1,6 @@
 # Difference Equation Block on SimulIDE
 
-This example implements a difference Equation (up to $3^{rd} order) Block simulation on [SimulIDE](https://simulide.com/p/), as a Script (_Angel Script_).
+This example implements a difference Equation (up to $3^{rd}$ order) Block simulation on [SimulIDE](https://simulide.com/p/), as a Script (_Angel Script_).
 
 This is done for implementing discrete system simulations on *SimulIDE*.
 
