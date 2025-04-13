@@ -1,6 +1,6 @@
-# Differential Equation Block on SimulIDE
+# Difference Equation Block on SimulIDE
 
-This example implements a Differential Equation (up to $3^{rd} order) Block simulation on [SimulIDE](https://simulide.com/p/), as a Script (_Angel Script_).
+This example implements a difference Equation (up to $3^{rd} order) Block simulation on [SimulIDE](https://simulide.com/p/), as a Script (_Angel Script_).
 
 This is done for implementing discrete system simulations on *SimulIDE*.
 
@@ -14,7 +14,7 @@ This repository includes 2 usage examples:
 
 ![](assets/test2.png)
 
-## Usage 
+## Usage
 You have to copy the component's folder inside a one in the user data folder, for instance `~/User_data/test`and associate it in Simulide.
 You can see how to do this in the official SimulIDE's Tutorials:
 
@@ -23,7 +23,7 @@ You can see how to do this in the official SimulIDE's Tutorials:
 - [Crear Componentes SimulIDE 1.1.0 ](https://www.youtube.com/watch?v=LBknR6y5Qho) (Spanish)
 
 
-The differential equation constants:
+The difference equation constants:
 
 $$
 H(z) = \frac{B_0 \cdot z^{0} + B_1 \cdot  z^{-1} + B_2 \cdot z^{-2} - B_3 \cdot z^{-3}}
@@ -35,4 +35,3 @@ can be set once the block `Diff_Equ` is added to the schematic, left-clicking on
 ![](assets/properties_A.png)
 
 ![](assets/properties_B.png)
-
